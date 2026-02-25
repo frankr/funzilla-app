@@ -7,6 +7,7 @@
 - Detail screen loads full activity data by `externalId`.
 - Detail hero uses approved image URLs from admin data.
 - Activity website opens in an in-app webview.
+- Server operator instructions are in `AGENTS.md`.
 
 ## API contract (current)
 - List: `GET /api/activities?city=HOU&status=ready&page=1&pageSize=100`
