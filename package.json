@@ -4,6 +4,8 @@
   "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
+    "start:pm2": "expo start --host ${EXPO_HOST:-lan} --port ${EXPO_PORT:-8081} --non-interactive",
+    "pm2:up": "bash scripts/server/pm2-up-expo.sh",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"

@@ -32,6 +32,7 @@ EXPO_PUBLIC_API_BASE_URL=http://<your-mac-lan-ip>:5173
 - Images are loaded from `heroImageUrl` and detail `images[].publicUrl`.
 - Address quality, attention status, and readiness flags come from admin API logic.
 - This is a bridge for POC; production should use a dedicated mobile backend endpoint.
+- PM2 server bootstrap script: `scripts/server/pm2-up-expo.sh` (run via `npm run pm2:up`).
 
 ## Full implementation log
 See [implementation-status-2026-02-25.md](./implementation-status-2026-02-25.md) for a complete summary of shipped features, UX decisions, current behavior, testing steps, and known follow-ups.
