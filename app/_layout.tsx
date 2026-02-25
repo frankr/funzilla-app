@@ -41,6 +41,7 @@ export default function RootLayout() {
         <Stack.Screen name="setup" />
         <Stack.Screen name="(tabs)" />
         <Stack.Screen name="detail/[id]" options={{ presentation: "card" }} />
+        <Stack.Screen name="webview" options={{ presentation: "card" }} />
       </Stack>
     </AppProvider>
   );

@@ -7,6 +7,7 @@ import { IMAGES, MAP_DATA } from "@/constants/MockData";
 export default function SearchMap() {
   const router = useRouter();
   const { activePin } = MAP_DATA;
+  const fallbackDetailId = "HT00200";
 
   return (
     <View className="flex-1 bg-white relative">
@@ -21,7 +22,7 @@ export default function SearchMap() {
 
         {/* Active Pin */}
         <Pressable
-          onPress={() => router.push("/detail/1")}
+          onPress={() => router.push(`/detail/${fallbackDetailId}`)}
           className="absolute items-center gap-1"
           style={{ top: "45%", left: "45%", transform: [{ translateX: -24 }, { translateY: -48 }] }}
         >
@@ -108,7 +109,7 @@ export default function SearchMap() {
       {/* Bottom Card */}
       <View className="relative z-30 p-4 pb-4">
         <Pressable
-          onPress={() => router.push("/detail/1")}
+          onPress={() => router.push(`/detail/${fallbackDetailId}`)}
           className="bg-white rounded-2xl p-4 active:scale-[0.98]"
           style={{ shadowColor: "#000", shadowOffset: { width: 0, height: -4 }, shadowOpacity: 0.1, shadowRadius: 20, elevation: 12 }}
         >
