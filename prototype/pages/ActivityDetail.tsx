@@ -71,7 +71,7 @@ const ActivityDetail: React.FC = () => {
                     <div className="absolute -right-6 -top-6 w-24 h-24 bg-primary/20 rounded-full blur-2xl"></div>
                     <div className="relative flex items-center justify-between gap-4">
                         <div className="flex-1">
-                            <h3 className="text-lg font-bold text-slate-900 leading-tight mb-1">Funzinga Members save $5 on entry</h3>
+                            <h3 className="text-lg font-bold text-slate-900 leading-tight mb-1">Funzilla Members save $5 on entry</h3>
                             <p className="text-sm text-slate-600">Join today for exclusive perks.</p>
                         </div>
                         <button className="shrink-0 bg-primary hover:bg-sky-600 text-white text-sm font-bold py-2.5 px-5 rounded-full shadow-lg shadow-primary/30 transition-all active:scale-95">

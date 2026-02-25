@@ -14,7 +14,7 @@ const Welcome: React.FC = () => {
         <header className="relative z-10 flex w-full items-center justify-center px-6 pt-12 pb-4">
             <div className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-primary text-3xl font-bold">explore</span>
-                <h2 className="text-slate-900 text-2xl font-extrabold tracking-tight">Funzinga</h2>
+                <h2 className="text-slate-900 text-2xl font-extrabold tracking-tight">Funzilla</h2>
             </div>
         </header>
 
